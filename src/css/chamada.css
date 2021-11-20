@@ -1,0 +1,65 @@
+.container-intro {
+    background-image: url(../img/bg-intro2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+
+    height: 100vh;
+}
+
+.intro-titulo {
+    font-size: 2rem;
+    font-family: var(--font-secondary);
+    font-weight: 700;
+
+    text-align: center;
+
+    position: absolute;
+    top: 100px;  
+}
+
+.titulo-box {
+    background: var(--white-color);
+    padding: 0.625rem;
+    color: var(--black-color);
+}
+
+.texto-box {
+    background: var(--primary-color);
+    padding: 0.625rem;
+    color: var(--white-color);
+}
+
+.intro-texto {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--white-color);
+
+    background-color: var(--primary-color);
+    
+    text-align: center;
+
+    position: absolute;
+    bottom: 100px;   
+}
+
+@media screen and (min-width:1020px) {
+    .container-intro {
+        background-image: url(../img/bg-intro.jpg);
+    }
+
+    .intro-titulo {
+        position: relative;
+
+        display: flex;
+        align-items: center;
+        padding-left: 3rem;
+    }
+
+    .intro-texto {
+        left: 25%;
+        bottom: 0;
+
+        padding: 0.625rem;
+    }
+}
