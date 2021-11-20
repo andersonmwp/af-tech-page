@@ -4,7 +4,7 @@
     background-size: 100%;
     background-position: top;
 
-    height: 100vh;
+    height: 80vh;
 }
 
 .intro-titulo {
@@ -46,6 +46,8 @@
 @media screen and (min-width:1020px) {
     .container-intro {
         background-image: url(../img/bg-intro.jpg);
+
+        height: 100vh;
     }
 
     .intro-titulo {
