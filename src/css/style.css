@@ -15,8 +15,8 @@
 }
 
 .container {
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 body {
@@ -68,18 +68,4 @@ body {
 
 main {
     padding-top: 2.75rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 1366px) {
-    
 }

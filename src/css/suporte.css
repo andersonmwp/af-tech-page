@@ -1,0 +1,26 @@
+.suporte-box {
+    background: #fff;
+}
+
+.suporte-titulo {
+    font-size: 1.875rem;
+    font-weight: 700;
+    font-family: var(--font-secondary);
+
+    text-align: center;
+
+    padding: 1.875rem 0;
+}
+
+.suporte-texto {
+    font-size: 1.25rem;
+    color: var(--black-color);
+
+    text-align: center;
+
+    padding: .625rem 0;
+}
+
+.suporte-imagem {
+    width: 100%;
+}
