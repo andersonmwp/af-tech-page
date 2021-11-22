@@ -1,0 +1,39 @@
+.final-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3.125rem 0;
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.final-titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: var(--font-secondary);
+    text-align: center;
+
+    border-bottom: 3px solid #81B3FF;
+    padding-bottom: 20px;
+}
+
+.final-texto {
+    font-size: 1.25rem;
+    color: var(--black-color);
+    text-align: center;
+
+    padding: 1.25rem 0;
+}
+
+.texto-enfase {
+    font-weight: 700;
+}
+
+@media screen and (min-width:1020px) {
+    .final-box {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
