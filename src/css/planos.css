@@ -27,38 +27,6 @@
     padding-top: .625rem;
 }
 
-.botao {
-    background-color: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
-    border-radius: 0px !important;
-
-    font-size: 1.125rem;
-    font-weight: 700;
-    color: var(--white-color);
-    text-transform: uppercase;
-    line-height: 1.5rem;
-    cursor: pointer;
-
-    display: block;
-    text-align: center;
-    margin: 1.25rem 0;
-    padding: .625rem 0;
-    width: 18.75rem;
-    
-    transition: background .3s linear;
-}
-
-.botao:hover {
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-    color: var(--white-color);
-    text-decoration: none;
-}
-
-.botao:active {
-    transform: scale(0.95);
-}
-
 /*---------- Seção para os cards dos planos ----------*/
 
 #planos {

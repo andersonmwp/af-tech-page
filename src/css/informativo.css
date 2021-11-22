@@ -1,3 +1,7 @@
+.info-box {
+    padding: 50px 0;
+}
+
 .titulo-info {
     font-size: 1.25rem;
     font-family: var(--font-secondary);
@@ -45,8 +49,13 @@
     font-weight: 700;
 }
 
+.container-icones {
+    padding: 50px 0;
+}
+
 .solucao-box {
     background: var(--black-color);
+    padding: 50px 0;
 }
 
 .titulo-solucao {
