@@ -1,0 +1,118 @@
+.rodape, .rodape-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: var(--black-color);
+
+    padding: 3.125rem 0;
+}
+
+.aftech-secao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 3.125rem;
+    font-weight: 700;
+    font-family: var(--font-secondary);
+    color: var(--primary-color);
+}
+
+.rodape-texto {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--white-color);
+
+    padding: 10px 0;
+}
+
+.rodape-subtitulo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--white-color);
+    text-decoration: none;
+
+    padding: 10px 0;
+}
+
+.rodape-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rodape-sociais-icone {
+    width: 60px;
+    padding: 10px 5px;
+}
+
+.suporte-whats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-top: 3.125rem;
+}
+
+.suporte-whats-titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.suporte-whats-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+
+    padding-top: .625rem;
+}
+
+.suporte-whats-icone {
+    width: 50px;
+    padding-right: .625rem;
+}
+
+.suporte-whats-texto {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--white-color);
+    
+    margin: 0;
+}
+
+.suporte-tel {
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: var(--white-color);
+
+    padding-top: .625rem;
+}
+
+.cop-box {
+    background: #F4F4F4;
+
+    padding: 20px;
+}
+
+.cop-texto {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+@media screen and (min-width:1020px) {
+    .rodape-logo {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+}
