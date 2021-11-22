@@ -63,6 +63,7 @@
 
 #planos {
     background: var(--black-color);
+    padding: 50px 0;
 }
 
 .planos-titulo {
@@ -104,10 +105,9 @@ summary {
     font-family: var(--font-secondary);
     color: var(--secondary-color);
 
-    text-align: center;
     max-width: 350px;
 
-    padding: .625rem 0;
+    padding: .625rem;
 
     border-radius: 10px;
 }
@@ -163,4 +163,97 @@ summary {
     font-size: 1.25rem;
     color: var(--black-color); 
     text-align: start;
+}
+
+.btn-plano {
+    width: 100%;
+}
+
+/*---------- Seção para os cards dos planos DESKTOP ----------*/
+
+.planos-desktop {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.planos-desk-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 310px;
+
+    background: #fff;
+    border-radius: .625rem;
+}
+
+.planos-titulo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    border-radius: .625rem; 
+
+    width: 100%;
+    padding: 1.25rem;    
+}
+
+.planos-desk-icone {
+    width: 40px;
+    margin-right: .625rem;
+}
+
+.planos-desk-titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: var(--font-secondary);
+    color: var(--black-color);
+}
+
+.planos-desk-subtitulo {
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+
+.cards-box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding: 0 .625rem;
+}
+
+.cards-box-desktop {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 .625rem;
+}
+
+.cards-desk-icone {
+    width: 30px;
+    padding-right: 5px;
+}
+
+.cards-desk-texto {
+    font-size: 1.25rem;
+    color: var(--black-color); 
+    text-align: start;
+}
+
+@media screen and (max-width:1019px) {
+    .planos-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1020px) {
+    .planos-mobile {
+        display: none;
+    }
+
+    .planos-desktop {
+        display: flex;
+    }
 }
